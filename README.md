@@ -38,6 +38,7 @@ All variables are optional.
 | `roc_trigger_mode` | Trigger mode for `roc-ctp-emulator` (only if `roc_ctp_emulator_enabled` is `true` ) | `continuous` |
 | `roc_ctp_emulator_endpoints` | List of CRU endpoints to emulate trigger (only if `roc_ctp_emulator_enabled` is `true` ) | `["#0"]` |
 | `dd_enabled` | If true, Data Distribution components will run and process data produced by Readout | `true` |
+| `qcdd_enabled` | If true, Quality Control components will run and process data forwarded by StfBuilder | `true` |
 | `stfb_standalone` | If true, `StfBuilder` runs with `--stand-alone` and `StfSender` is disabled (only if `dd_enabled` is `true`) | `false` |
 | `dd_discovery_net_if` | The name of the InfiniBand interface for `StfSender` output (only if `dd_enabled` is `true`) | `lo` |
 | `dd_discovery_endpoint` | URI of the Data Distribution Consul instance (only if `dd_enabled` is `true`) | `no-op://` |
