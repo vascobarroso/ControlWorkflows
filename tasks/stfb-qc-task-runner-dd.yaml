@@ -1,6 +1,6 @@
 name: stfb-qc-task-runner-dd
 defaults:
-  qc_config_uri: json:///etc/flp.d/qc/datadistribution.json
+  qc_config_uri: consul://vasco-flp-1.cern.ch:8500/o2/components/qc/basic-vasco-flp-1
   user: flp
 control:
   mode: "fairmq"
