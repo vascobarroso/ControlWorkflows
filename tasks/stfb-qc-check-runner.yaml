@@ -1,6 +1,6 @@
 name: stfb-qc-check-runner
 defaults:
-  qc_config_uri: consul-json://vasco-flp-1.cern.ch:8500/o2/components/qc/datadistribution
+  qc_config_uri: consul-json://vasco-flp3.cern.ch:8500/o2/components/qc/datadistribution
   user: flp
 control:
   mode: "fairmq"
